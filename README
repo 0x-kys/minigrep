@@ -1,0 +1,12 @@
+minigrep: a ripgrep like minified version of grep from the rustbook
+
+ref:
+	- https://doc.rust-lang.org/book/ch12-00-an-io-project.html
+
+```sh
+# case sensitive
+cargo run -- <string_to_find> <file_path>	
+
+# case insensitive
+IGNORE_CASE=1 cargo run -- <string_to_find> <file_path>
+```
